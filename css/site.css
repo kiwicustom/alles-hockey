@@ -392,6 +392,56 @@ a { color: inherit; }
 
 .site-footer a:hover { color: var(--ah-red); }
 
+/* —— Language —— */
+.lang-bar {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  z-index: 2;
+}
+.lang-switch {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 0.35rem;
+}
+.lang-switch__label {
+  font-size: 0.68rem;
+  font-weight: 800;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.65);
+}
+.lang-switch__group {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 0.35rem;
+  max-width: min(100vw - 2rem, 22rem);
+}
+.lang-switch__btn {
+  appearance: none;
+  border: 1px solid rgba(255, 255, 255, 0.28);
+  background: rgba(255, 255, 255, 0.08);
+  color: #fff;
+  font: inherit;
+  font-size: 0.72rem;
+  font-weight: 700;
+  padding: 0.28rem 0.5rem;
+  border-radius: 999px;
+  cursor: pointer;
+  backdrop-filter: blur(8px);
+  transition: background 140ms ease, border-color 140ms ease;
+}
+.lang-switch__btn:hover {
+  background: rgba(255, 255, 255, 0.16);
+}
+.lang-switch__btn.is-active {
+  background: #fff;
+  color: var(--ah-ink);
+  border-color: #fff;
+}
+
 @media (prefers-reduced-motion: reduce) {
   *,
   *::before,

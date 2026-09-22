@@ -1,33 +1,43 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Alles Hockey — Last-minute ice hockey matching in Switzerland</title>
+  <title>Alles Hockey — Last-Minute-Eishockey-Matching in der Schweiz</title>
   <meta
     name="description"
-    content="Alles Hockey: find or post last-minute players, goalies and ice time in Switzerland — plus 2ndChance used gear. Closed beta now. Browser sister site: hockeyschlampe.ch."
+    content="Alles Hockey: Spieler, Goalies und Eiszeit last minute finden oder inserieren — plus 2ndChance für gebrauchtes Material. Geschlossene Beta. Browser: hockeyschlampe.ch."
   />
   <link rel="canonical" href="https://www.alles-hockey.ch/" />
+  <link rel="alternate" hreflang="de" href="https://www.alles-hockey.ch/" />
+  <link rel="alternate" hreflang="en" href="https://www.alles-hockey.ch/" />
+  <link rel="alternate" hreflang="fi" href="https://www.alles-hockey.ch/" />
+  <link rel="alternate" hreflang="fr" href="https://www.alles-hockey.ch/" />
+  <link rel="alternate" hreflang="it" href="https://www.alles-hockey.ch/" />
+  <link rel="alternate" hreflang="x-default" href="https://www.alles-hockey.ch/" />
   <meta name="theme-color" content="#d9001b" />
   <meta name="robots" content="index,follow,max-image-preview:large" />
   <meta property="og:type" content="website" />
   <meta property="og:site_name" content="Alles Hockey" />
-  <meta property="og:locale" content="en_CH" />
+  <meta property="og:locale" content="de_CH" />
+  <meta property="og:locale:alternate" content="en_CH" />
+  <meta property="og:locale:alternate" content="fr_CH" />
+  <meta property="og:locale:alternate" content="it_CH" />
+  <meta property="og:locale:alternate" content="fi_FI" />
   <meta property="og:url" content="https://www.alles-hockey.ch/" />
-  <meta property="og:title" content="Alles Hockey — tonight, not someday" />
+  <meta property="og:title" content="Alles Hockey — heute Abend, nicht irgendwann" />
   <meta
     property="og:description"
-    content="Swiss ice-hockey board for last-minute players, ice time and used gear. Invite-only beta."
+    content="Schweizer Eishockey-Board für Last-Minute-Spieler, Eiszeit und gebrauchtes Material. Nur auf Einladung."
   />
   <meta property="og:image" content="https://www.alles-hockey.ch/assets/brand/alles-hockey-192.png" />
   <meta property="og:image:width" content="192" />
   <meta property="og:image:height" content="192" />
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Alles Hockey — tonight, not someday" />
+  <meta name="twitter:title" content="Alles Hockey — heute Abend, nicht irgendwann" />
   <meta
     name="twitter:description"
-    content="Last-minute hockey matching + 2ndChance gear. Switzerland. Closed beta."
+    content="Schweizer Eishockey-Board für Last-Minute-Spieler, Eiszeit und gebrauchtes Material. Nur auf Einladung."
   />
   <meta name="twitter:image" content="https://www.alles-hockey.ch/assets/brand/alles-hockey-192.png" />
   <link rel="icon" href="/assets/brand/alles-hockey-64.png" />
@@ -45,7 +55,8 @@
     "@type": "WebSite",
     "name": "Alles Hockey",
     "url": "https://www.alles-hockey.ch/",
-    "description": "Swiss ice-hockey board for last-minute players, ice time and used gear.",
+    "inLanguage": ["de", "en", "fi", "fr", "it", "gsw"],
+    "description": "Schweizer Eishockey-Board für Last-Minute-Spieler, Eiszeit und gebrauchtes Material.",
     "publisher": {
       "@type": "Organization",
       "name": "kiwicustom GmbH",
@@ -66,9 +77,12 @@
   </script>
 </head>
 <body>
-  <a class="skip" href="#main">Skip to content</a>
+  <a class="skip" href="#main" data-i18n="skip">Zum Inhalt springen</a>
 
   <header class="hero" role="banner">
+    <div class="lang-bar">
+      <div id="lang-switch" class="lang-switch"></div>
+    </div>
     <div class="hero__plane" aria-hidden="true">
       <div class="hero__ice"></div>
       <div class="hero__glow"></div>
@@ -83,11 +97,11 @@
           alt="Alles Hockey"
         />
         <h1 class="hero__name">Alles Hockey</h1>
-        <p class="hero__tag">Tonight’s ice. Tonight’s lineup. Built for when it actually matters.</p>
+        <p class="hero__tag" data-i18n="hero.tag">Heutiges Eis. Heutige Aufstellung. Für den Moment, der zählt.</p>
       </div>
       <div class="hero__ctas">
-        <a class="btn btn--primary" href="https://beta.alles-hockey.ch/">Open the beta app</a>
-        <a class="btn btn--ghost" href="https://help.alles-hockey.ch/">How it works</a>
+        <a class="btn btn--primary" href="https://beta.alles-hockey.ch/" data-i18n="hero.ctaBeta">Beta-App öffnen</a>
+        <a class="btn btn--ghost" href="https://help.alles-hockey.ch/" data-i18n="hero.ctaHelp">So funktioniert’s</a>
       </div>
     </div>
   </header>
@@ -96,41 +110,37 @@
     <section class="section" aria-labelledby="what-title">
       <div class="split">
         <div data-reveal>
-          <p class="section__kicker">What it is</p>
-          <h2 class="section__title" id="what-title">Swiss hockey, last minute</h2>
-          <p class="section__lead">
-            Alles Hockey is the phone app for finding or posting short-lived needs — players, goalies,
-            ice time — and moving used gear fast. Invite-only while we sharpen the closed beta.
+          <p class="section__kicker" data-i18n="what.kicker">Was ist das?</p>
+          <h2 class="section__title" id="what-title" data-i18n="what.title">Schweizer Hockey — last minute</h2>
+          <p class="section__lead" data-i18n="what.lead">
+            Alles Hockey ist die App, um kurzfristige Bedarfe zu finden oder zu inserieren — Spieler, Goalies, Eiszeit — und gebrauchtes Material schnell weiterzugeben. Nur Einladung, während wir die geschlossene Beta schärfen.
           </p>
           <ul class="feature-list">
             <li data-n="1">
-              <strong>Last Minute</strong>
-              <span>HS Cards with time, place, level. Contact only when someone taps through.</span>
+              <strong data-i18n="feat.lm.title">Last Minute</strong>
+              <span data-i18n="feat.lm.body">HS Cards mit Zeit, Ort, Niveau. Kontakt nur, wenn jemand durchklickt.</span>
             </li>
             <li data-n="2">
-              <strong>2ndChance</strong>
-              <span>Used sticks, pads, skates — listings expire so the board stays fresh.</span>
+              <strong data-i18n="feat.sc.title">2ndChance</strong>
+              <span data-i18n="feat.sc.body">Gebrauchte Schläger, Schoner, Schlittschuhe — Inserate laufen ab, damit das Board frisch bleibt.</span>
             </li>
             <li data-n="3">
-              <strong>Map</strong>
-              <span>See what’s nearby when you’re already laced up.</span>
+              <strong data-i18n="feat.map.title">Karte</strong>
+              <span data-i18n="feat.map.body">Sieh, was in der Nähe ist — wenn die Schnürsenkel schon gebunden sind.</span>
             </li>
           </ul>
         </div>
         <aside class="panel" data-reveal>
-          <h3>App vs browser</h3>
-          <p>
-            <strong>Alles Hockey</strong> is the app brand — beta now at
-            <a href="https://beta.alles-hockey.ch/">beta.alles-hockey.ch</a>, production later at
-            <code>app.alles-hockey.ch</code>.
+          <h3 data-i18n="panel.title">App vs. Browser</h3>
+          <p data-i18n="panel.p1">
+            Alles Hockey ist die App-Marke — Beta jetzt unter beta.alles-hockey.ch, Produktion später unter app.alles-hockey.ch.
           </p>
-          <p>
-            Prefer the browser? Full site stays live on
-            <a href="https://hockeyschlampe.ch/">hockeyschlampe.ch</a> — same product family, browser-first.
+          <p data-i18n="panel.p2">
+            Lieber im Browser? Die volle Site bleibt auf hockeyschlampe.ch — gleiche Produktfamilie, browser first.
           </p>
           <div class="panel__links">
-            <a class="btn btn--ink" href="https://beta.alles-hockey.ch/">Beta app</a>
-            <a class="btn btn--outline" href="https://hockeyschlampe.ch/">Browser site</a>
+            <a class="btn btn--ink" href="https://beta.alles-hockey.ch/" data-i18n="panel.ctaBeta">Beta-App</a>
+            <a class="btn btn--outline" href="https://hockeyschlampe.ch/" data-i18n="panel.ctaBrowser">Browser-Site</a>
           </div>
         </aside>
       </div>
@@ -138,22 +148,22 @@
 
     <section class="band" aria-labelledby="install-title">
       <div class="section">
-        <p class="section__kicker">Get the app</p>
-        <h2 class="section__title" id="install-title">Android &amp; iPhone</h2>
-        <p class="section__lead">
-          Capacitor shell around the live beta. Same invite email, code, and PIN as the website.
+        <p class="section__kicker" data-i18n="install.kicker">App holen</p>
+        <h2 class="section__title" id="install-title" data-i18n="install.title">Android &amp; iPhone</h2>
+        <p class="section__lead" data-i18n="install.lead">
+          Capacitor-Shell um die Live-Beta. Gleiche Einladungs-E-Mail, Code und PIN wie auf der Website.
         </p>
         <div class="install-grid">
           <a
             class="install-link"
             href="https://github.com/kiwicustom/hs-android-beta/releases/latest/download/alles-hockey-beta.apk"
           >
-            <strong>Android APK</strong>
-            <span>Download the beta build · allow install from that source</span>
+            <strong data-i18n="install.android.title">Android-APK</strong>
+            <span data-i18n="install.android.body">Beta-Build laden · Installation von dieser Quelle erlauben</span>
           </a>
           <a class="install-link" href="https://help.alles-hockey.ch/help/install-ios.html">
-            <strong>iPhone via TestFlight</strong>
-            <span>Invite-only · install TestFlight, then Alles Hockey</span>
+            <strong data-i18n="install.ios.title">iPhone via TestFlight</strong>
+            <span data-i18n="install.ios.body">Nur Einladung · TestFlight installieren, dann Alles Hockey</span>
           </a>
         </div>
       </div>
@@ -161,30 +171,31 @@
 
     <section class="section" aria-labelledby="join-title">
       <div data-reveal>
-        <p class="section__kicker">Closed beta</p>
-        <h2 class="section__title" id="join-title">Invitation only</h2>
-        <p class="section__lead">
-          An operator invites your email. You enter the mail code, create a PIN, and you’re in —
-          on the app or at beta.alles-hockey.ch.
+        <p class="section__kicker" data-i18n="join.kicker">Geschlossene Beta</p>
+        <h2 class="section__title" id="join-title" data-i18n="join.title">Nur auf Einladung</h2>
+        <p class="section__lead" data-i18n="join.lead">
+          Ein Operator lädt deine E-Mail ein. Du gibst den Mail-Code ein, erstellst eine PIN — und bist drin, in der App oder unter beta.alles-hockey.ch.
         </p>
         <div class="hero__ctas" style="margin-top:1.25rem">
-          <a class="btn btn--primary" href="https://help.alles-hockey.ch/help/join.html">Join steps</a>
-          <a class="btn btn--outline" href="https://help.alles-hockey.ch/help/sign-in.html">Email code → PIN</a>
+          <a class="btn btn--primary" href="https://help.alles-hockey.ch/help/join.html" data-i18n="join.ctaJoin">Beitrittsschritte</a>
+          <a class="btn btn--outline" href="https://help.alles-hockey.ch/help/sign-in.html" data-i18n="join.ctaPin">E-Mail-Code → PIN</a>
         </div>
       </div>
     </section>
   </main>
 
   <footer class="site-footer">
-    <nav aria-label="Footer">
-      <a href="https://beta.alles-hockey.ch/">Beta app</a>
-      <a href="https://help.alles-hockey.ch/">Help</a>
+    <nav data-i18n-aria="footer.nav" aria-label="Footer">
+      <a href="https://beta.alles-hockey.ch/" data-i18n="footer.beta">Beta-App</a>
+      <a href="https://help.alles-hockey.ch/" data-i18n="footer.help">Hilfe</a>
       <a href="https://hockeyschlampe.ch/">hockeyschlampe.ch</a>
       <a href="https://help.alles-hockey.ch/docs/release-notes.html">Release notes</a>
     </nav>
-    <p>kiwicustom GmbH · Alles Hockey · For the Love of Sport!</p>
+    <p data-i18n="footer.tagline">kiwicustom GmbH · Alles Hockey · For the Love of Sport!</p>
   </footer>
 
+  <script src="/js/i18n.js"></script>
+  <script src="/js/i18n-boot.js"></script>
   <script src="/js/site.js" defer></script>
 </body>
 </html>
