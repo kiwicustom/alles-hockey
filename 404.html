@@ -7,6 +7,25 @@
   <meta name="robots" content="noindex" />
   <link rel="icon" href="/assets/brand/alles-hockey-64.png" />
   <link rel="stylesheet" href="/css/site.css" />
+  <script>
+    (function () {
+      var appOrigin = "https://app.alles-hockey.ch";
+      var prefixes = [
+        "/feed", "/about", "/feedback", "/admin", "/agb", "/privacy", "/datenschutz", "/impressum",
+        "/2ndchance", "/2nd-chance", "/last-minute",
+        "/bern", "/zuerich", "/zug", "/geneve", "/lausanne", "/lugano", "/davos", "/fribourg",
+        "/biel", "/rapperswil", "/ambri", "/langnau", "/kloten", "/porrentruy", "/olten", "/basel",
+        "/visp", "/winterthur", "/lachauxdefonds", "/weinfelden", "/glarus", "/chur"
+      ];
+      var path = location.pathname || "/";
+      var bare = path.length > 1 && path.charAt(path.length - 1) === "/" ? path.slice(0, -1) : path;
+      var hit = prefixes.some(function (prefix) {
+        return bare === prefix || bare.indexOf(prefix + "/") === 0;
+      });
+      if (!hit) return;
+      location.replace(appOrigin + path + location.search + location.hash);
+    })();
+  </script>
 </head>
 <body>
   <main class="section">
@@ -15,7 +34,7 @@
     <p class="section__lead">That URL isn’t on the Alles Hockey entry site.</p>
     <p style="margin-top:1.25rem">
       <a class="btn btn--primary" href="/">Back home</a>
-      <a class="btn btn--outline" href="https://beta.alles-hockey.ch/">Open beta app</a>
+      <a class="btn btn--outline" href="https://app.alles-hockey.ch/">Open app</a>
     </p>
   </main>
 </body>
