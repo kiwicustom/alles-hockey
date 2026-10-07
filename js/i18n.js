@@ -37,7 +37,7 @@ window.AH_I18N = {
       "feat.map.body": "Clubs und Spieler suchen, filtern, vergleichen und merken.",
       "panel.title": "Wo die App läuft",
       "panel.p1":
-        "Die Open Beta läuft unter beta.alles-hockey.ch. app.alles-hockey.ch ist die Produktionsadresse und liefert die App noch nicht aus.",
+        "Die Open Beta läuft unter app.alles-hockey.ch.",
       "panel.p2":
         "hockeyschlampe.ch ist der andere Eingang zum selben Produkt.",
       "panel.ctaBeta": "Beta-App",
@@ -53,7 +53,7 @@ window.AH_I18N = {
       "join.kicker": "Open Beta",
       "join.title": "Nur auf Einladung",
       "join.lead":
-        "Ein Operator lädt deine E-Mail ein. Du gibst den Mail-Code ein, erstellst eine PIN — und bist drin, in der App oder unter beta.alles-hockey.ch.",
+        "Ein Operator lädt deine E-Mail ein. Du gibst den Mail-Code ein, erstellst eine PIN — und bist drin, in der App oder unter app.alles-hockey.ch.",
       "join.ctaJoin": "Beitrittsschritte",
       "join.ctaPin": "E-Mail-Code → PIN",
       "footer.nav": "Footer",
@@ -85,7 +85,7 @@ window.AH_I18N = {
       "feat.map.body": "Search, filter, compare, and save clubs and players.",
       "panel.title": "Where the app runs",
       "panel.p1":
-        "The Open Beta runs at beta.alles-hockey.ch. app.alles-hockey.ch is the production address and is not serving the app yet.",
+        "The Open Beta runs at app.alles-hockey.ch.",
       "panel.p2":
         "hockeyschlampe.ch is the other front door to the same product.",
       "panel.ctaBeta": "Beta app",
@@ -101,7 +101,7 @@ window.AH_I18N = {
       "join.kicker": "Open Beta",
       "join.title": "Invitation only",
       "join.lead":
-        "An operator invites your email. You enter the mail code, create a PIN, and you’re in — on the app or at beta.alles-hockey.ch.",
+        "An operator invites your email. You enter the mail code, create a PIN, and you’re in — on the app or at app.alles-hockey.ch.",
       "join.ctaJoin": "Join steps",
       "join.ctaPin": "Email code → PIN",
       "footer.nav": "Footer",
@@ -133,7 +133,7 @@ window.AH_I18N = {
       "feat.map.body": "Hae, suodata, vertaa ja tallenna seuroja ja pelaajia.",
       "panel.title": "App vs selain",
       "panel.p1":
-        "Open Beta toimii osoitteessa beta.alles-hockey.ch. app.alles-hockey.ch on tuotanto-osoite, eikä sovellus vastaa siellä vielä.",
+        "Open Beta toimii osoitteessa app.alles-hockey.ch.",
       "panel.p2":
         "Mieluummin selain? Koko sivusto pysyy osoitteessa hockeyschlampe.ch — sama tuoteperhe, selain edellä.",
       "panel.ctaBeta": "Beta-app",
@@ -149,7 +149,7 @@ window.AH_I18N = {
       "join.kicker": "Open Beta",
       "join.title": "Vain kutsulla",
       "join.lead":
-        "Operaattori kutsuu sähköpostisi. Syötät koodin, luot PIN-koodin — ja olet sisällä appissa tai osoitteessa beta.alles-hockey.ch.",
+        "Operaattori kutsuu sähköpostisi. Syötät koodin, luot PIN-koodin — ja olet sisällä appissa tai osoitteessa app.alles-hockey.ch.",
       "join.ctaJoin": "Liittymisohjeet",
       "join.ctaPin": "Sähköpostikoodi → PIN",
       "footer.nav": "Alatunniste",
@@ -181,7 +181,7 @@ window.AH_I18N = {
       "feat.map.body": "Chercher, filtrer, comparer et garder des clubs et des joueurs.",
       "panel.title": "App vs navigateur",
       "panel.p1":
-        "L’Open Beta tourne sur beta.alles-hockey.ch. app.alles-hockey.ch est l’adresse de production et ne sert pas encore l’app.",
+        "L’Open Beta tourne sur app.alles-hockey.ch.",
       "panel.p2":
         "Préférer le navigateur ? Le site complet reste sur hockeyschlampe.ch — même famille produit, navigateur d’abord.",
       "panel.ctaBeta": "App bêta",
@@ -197,7 +197,7 @@ window.AH_I18N = {
       "join.kicker": "Open Beta",
       "join.title": "Sur invitation seulement",
       "join.lead":
-        "Un opérateur invite ton e-mail. Tu saisis le code, crées un PIN — et tu es dedans, dans l’app ou sur beta.alles-hockey.ch.",
+        "Un opérateur invite ton e-mail. Tu saisis le code, crées un PIN — et tu es dedans, dans l’app ou sur app.alles-hockey.ch.",
       "join.ctaJoin": "Étapes pour rejoindre",
       "join.ctaPin": "Code e-mail → PIN",
       "footer.nav": "Pied de page",
@@ -229,7 +229,7 @@ window.AH_I18N = {
       "feat.map.body": "Cercare, filtrare, confrontare e salvare club e giocatori.",
       "panel.title": "App vs browser",
       "panel.p1":
-        "L’Open Beta gira su beta.alles-hockey.ch. app.alles-hockey.ch è l’indirizzo di produzione e non serve ancora l’app.",
+        "L’Open Beta gira su app.alles-hockey.ch.",
       "panel.p2":
         "Preferisci il browser? Il sito completo resta su hockeyschlampe.ch — stessa famiglia di prodotto, browser first.",
       "panel.ctaBeta": "App beta",
@@ -245,7 +245,7 @@ window.AH_I18N = {
       "join.kicker": "Open Beta",
       "join.title": "Solo su invito",
       "join.lead":
-        "Un operatore invita la tua email. Inserisci il codice, crea un PIN — ed entri, nell’app o su beta.alles-hockey.ch.",
+        "Un operatore invita la tua email. Inserisci il codice, crea un PIN — ed entri, nell’app o su app.alles-hockey.ch.",
       "join.ctaJoin": "Passi per unirti",
       "join.ctaPin": "Codice email → PIN",
       "footer.nav": "Footer",
@@ -277,7 +277,7 @@ window.AH_I18N = {
       "feat.map.body": "Clubs und Spieler sueche, filtere, vergliiche und merke.",
       "panel.title": "App vs. Browser",
       "panel.p1":
-        "D Open Beta lauft under beta.alles-hockey.ch. app.alles-hockey.ch isch d Produktionsadrässe und liefert d App no nöd us.",
+        "D Open Beta lauft under app.alles-hockey.ch.",
       "panel.p2":
         "Lieber im Browser? Di volli Site blibt uf hockeyschlampe.ch — gliichi Produktfamilie, browser first.",
       "panel.ctaBeta": "Beta-App",
@@ -293,7 +293,7 @@ window.AH_I18N = {
       "join.kicker": "Open Beta",
       "join.title": "Nume uf Iiladig",
       "join.lead":
-        "En Operator ladet dini E-Mail ii. Du gibsch de Mail-Code ii, erstellsch e PIN — und bisch drin, i de App oder under beta.alles-hockey.ch.",
+        "En Operator ladet dini E-Mail ii. Du gibsch de Mail-Code ii, erstellsch e PIN — und bisch drin, i de App oder under app.alles-hockey.ch.",
       "join.ctaJoin": "Biitrittschritt",
       "join.ctaPin": "E-Mail-Code → PIN",
       "footer.nav": "Footer",
